@@ -1,0 +1,2 @@
+# aiyong
+store effective c 
