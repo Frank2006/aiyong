@@ -9,7 +9,10 @@ int main()
 	printf("Uh...is your number %d?\n", guess);
 	while((getchar()!='y'))
 	{
+	if(getchar()=='n')
 	printf("Well, then, is it %d?\n", ++guess);
+	else
+	printf("Sorry, I understand only y and n.\n");
 	while(getchar()!='\n')
 	continue;
 	}
