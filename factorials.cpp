@@ -1,7 +1,6 @@
 #include <stdio.h>
 long fact(int n);
 long rfact(int n);
-
 int main(void)
 {
 	int num;
